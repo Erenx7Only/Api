@@ -1,4 +1,4 @@
-#@diwazz
+#@Encrypted7xg
 
 from flask import Flask, request, jsonify
 import requests
@@ -8,16 +8,11 @@ import random
 import time
 
 app = Flask(__name__)
-BOT_TOKEN = 'Nigga Your Bot Token '
+BOT_TOKEN = '8813328951:AAENnOmrJAz-fXCzPAfOlhlO3xplNoQZ-3g'
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/editMessageText"
 
 PROXY_LIST = [
-    "gorkem.oynar@ogr.deu.edu.tr:Parola54@193.140.151.155:13128",
-    "soner.sarisaltik@ogr.deu.edu.tr:Ss147852@193.140.151.155:13128",
-    "2017681002@ogr.deu.edu.tr:Sami1453@193.140.151.155:13128",
-    "2018215002@ogr.deu.edu.tr:Huso3550@193.140.151.155:13128",
-    "2018300556@ogr.deu.edu.tr:End10037618@193.140.151.85:13128",
-    "gorkem.oynar@ogr.deu.edu.tr:Parola54@193.140.151.85:13128",
+    "p101.instantproxies.com:9082:2894:O0vcNDWj9cbS",
 ]
 
 FAKE_DETAILS_POOL = [
