@@ -12,7 +12,7 @@ BOT_TOKEN = '8813328951:AAENnOmrJAz-fXCzPAfOlhlO3xplNoQZ-3g'
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/editMessageText"
 
 PROXY_LIST = [
-    "p101.instantproxies.com:9082:2894:O0vcNDWj9cbS",
+    "http://2894:O0vcNDWj9cbS@p101.instantproxies.com:9082",
 ]
 
 FAKE_DETAILS_POOL = [
